@@ -1,13 +1,13 @@
-def binary_search(searchedNumber, list):
+def binary_search(searchedNumber, searchList):
 
 	minIndex = 0
-	maxIndex = len(list) - 1
+	maxIndex = len(searchList) - 1
 
 	while minIndex <= maxIndex:
 
 		middleIndex = (minIndex + maxIndex)/2
 
-		valueFromMiddleOfList = list[middleIndex]
+		valueFromMiddleOfList = searchList[middleIndex]
 
 		if valueFromMiddleOfList == searchedNumber:
 			return searchedNumber
