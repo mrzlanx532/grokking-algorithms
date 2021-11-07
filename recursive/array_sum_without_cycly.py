@@ -5,10 +5,7 @@ def sum(list, acc = 0):
 
 	acc = acc + list.pop(0)
 
-	if len(list) == 0:
-		return acc
-	else:
-		return sum(list, acc)
+	return sum(list, acc)
 
 
-print sum([1,2, 4, 7])
+print sum([1, 2, 4, 7])
