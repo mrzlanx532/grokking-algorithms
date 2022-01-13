@@ -1,3 +1,6 @@
+# python2.7
+# Сортировка выбором. Сложность: O(n*n)
+
 def findSmallest(arr):
 	smallest = arr[0]
 	smallest_index = 0
